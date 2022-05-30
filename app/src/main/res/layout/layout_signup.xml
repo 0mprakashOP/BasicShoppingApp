@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgsignup"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:src="@drawable/signuplogo"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="130dp"
+        android:background="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/txtfname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/imgsignup"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="15dp"
+        android:background="#ff7b5c"
+        android:hint="   Enter First Name"
+        android:paddingLeft="10dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff" />
+    <EditText
+        android:id="@+id/txtlname"
+        android:layout_below="@+id/txtfname"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="   Enter Last Name"
+        android:textColorHint="#ffffff"
+        android:layout_marginHorizontal="30dp"
+        android:textColor="#ffffff"
+        android:background="#ff7b5c"
+        android:paddingLeft="10dp"
+        />
+
+    <EditText
+        android:id="@+id/txtmail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txtlname"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="15dp"
+        android:background="#ff7b5c"
+        android:hint="   Enter e-mail ID"
+        android:paddingLeft="10dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff" />
+
+    <EditText
+        android:id="@+id/txtpno"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txtmail"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="15dp"
+        android:background="#ff7b5c"
+        android:inputType="number"
+        android:hint="   Enter Phone Number"
+        android:paddingLeft="10dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff" />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/txtpno"
+        android:layout_marginLeft="30dp"
+
+        android:layout_marginTop="10dp"
+        android:text="OTP via e-mail"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+
+        android:layout_below="@+id/txtpno"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_toRightOf="@+id/button1"
+        android:text="OTP via Phone" />
+
+    <EditText
+        android:id="@+id/txtotp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/button1"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="15dp"
+        android:hint="   Enter OTP"
+        android:inputType="numberPassword"
+        android:paddingLeft="10dp"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+
+
+        />
+    <CheckBox
+        android:id="@+id/otpchk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show OTP"
+        android:layout_below="@+id/txtotp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="7dp"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/otpchk"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="55dp"
+        android:text="  CREATE ACCOUNT" />
+
+
+
+
+
+
+</RelativeLayout>

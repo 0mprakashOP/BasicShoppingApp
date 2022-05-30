@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">O AND GD</string>
+    <string name="new_app_name">ORDER AND GET DELIVER</string>
+    <string name="preference_file_name">E-SHOPPING</string>
+    <string name="otp">OTP Sent to your registered credentials</string>
+
+</resources>
